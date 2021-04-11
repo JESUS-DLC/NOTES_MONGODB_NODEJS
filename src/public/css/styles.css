@@ -1,0 +1,113 @@
+body{
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.fsnav{
+    font-size: 15px;
+
+}
+.dfont{
+    font-size: 15px;
+}
+
+
+.btngit{
+    
+    left: 50%;
+    position: relative;
+    border-radius: 10px;
+}
+
+.vn{
+    font-size: 20px;
+}
+
+
+.about{
+    border-radius: 10px;
+}
+
+/* formulario de registro y inicio de sesion */
+
+.login-box{
+    width: 320px;
+    height: auto;
+    background-color: black;
+    color: aliceblue;
+    top: 60%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 60px 20px;
+    border-radius: 10px;
+
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.login-box h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color: aliceblue;
+}
+
+
+.login-box label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"],
+.login-box input[type="email"]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: aliceblue;
+    font: 16px;
+}
+
+.login-box button{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 100%;
+}
+
+.nameprofile{
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+

@@ -1,0 +1,21 @@
+<div class="row">
+    <div class="mx-auto">
+        <div class="login-box">
+            <img src="/img/logo.jpg" alt="logo jesusdlc" class="logo">
+            <h1>Registrate</h1>
+            <form action="/users/signup" method="POST">
+                <label>Nombre</label>
+                <input name="name" type="text" placeholder="coloca tu nombre" value="{{name}}">
+
+                <label>Email</label>
+                <input name="email" type="email" placeholder="coloca tu email" value="{{email}}">
+
+                <label>Contraseña</label>
+                <input name="password" type="password" placeholder="coloca tu contraseña">
+
+                <label>Repita su Contraseña</label>
+                <input name="confirm_password" type="password" placeholder="Repita su Contraseña">
+
+                <button>Registrate</button>
+            </form>
+        </div>
