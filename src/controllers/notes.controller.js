@@ -42,9 +42,6 @@ notesController.updateEditNotes = async function(req,res){
 // eliminar notas
 notesController.deleteNotes = async function(req,res){
     await Note.findByIdAndDelete(req.params.id)
-    if(note.user != req.user.id){
-        return res.redirect('/notes');
-    }
     req.flash('delete_msg','Tarea eliminada correctamente');
     res.redirect('/notes')
 }
